@@ -1,4 +1,5 @@
 package Strategy;
+
 public interface AttackStrategy {
-    public void attack();
+   public int attack();
 }

@@ -1,5 +1,12 @@
 package Heroes;
+
 public abstract class Hero {
-    public void createHero(){};
-    public void damageAttack(){};
+    protected String name;
+    protected Integer health;
+
+    public Hero(String name) {
+        this.name = name;
+        this.health = 100;
+    }
+
 }
