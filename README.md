@@ -1,2 +1,2 @@
 # sdp6
-observer patern and strategy pattern
+gameObserver patern and strategy pattern

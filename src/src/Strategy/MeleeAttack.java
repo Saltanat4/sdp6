@@ -1,9 +1,9 @@
 package Strategy;
 
 public class MeleeAttack implements AttackStrategy {
-    @Override
-    public int attack(){
-        System.out.println("Swinging a sword");
-        return 18;
+    public int attack() {
+        System.out.println("Slashes the enemy with a sword!");
+        return 20;
     }
+    public String getName() { return "Melee"; }
 }
